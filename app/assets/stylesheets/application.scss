@@ -1,2 +1,38 @@
 @import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap');
+
 @import "articles";
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color: #337AB7;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.banner {
+  background-color: #F8F8F8;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #5E5E5E;
+  border-bottom: 1px solid #5E5E5E;
+  margin-bottom: 40px;
+}
+
+.banner h1 {
+  font-size: 16px;
+  padding-left: 40px;
+  font-weight: 400;
+}
+
+.banner a {
+  text-decoration: none;
+  color: #5E5E5E;
+  padding-right: 40px;
+}

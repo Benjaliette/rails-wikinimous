@@ -7,7 +7,7 @@ Article.destroy_all
 puts 'Deleted!'
 
 puts 'Creating 10 fakes articles...'
-100.times do
+10.times do
   Article.create(
     title: Faker::Quote.most_interesting_man_in_the_world,
     content: Faker::Lorem.sentence

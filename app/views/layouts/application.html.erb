@@ -11,6 +11,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="banner">
+      <h1><%= link_to "Wikinimous", articles_path %></h1>
+      <%= link_to "Create article", new_article_path %>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
